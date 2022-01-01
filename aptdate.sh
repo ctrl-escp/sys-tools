@@ -3,7 +3,7 @@
 clr='\033[0;33m'
 clr2='\033[0;36m'
 noclr='\033[0m'
-PREFIX=$(echo -e ${clr}[APTDATE]${noclr} ${clr2})
+PREFIX=$(echo -e "${clr}[APTDATE]${noclr} ${clr2}")
 
 if [ "$1" == "clean" ]; then
     echo -e "$PREFIX Removing cache${noclr}"
