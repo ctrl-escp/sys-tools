@@ -9,3 +9,5 @@ A personal assortment of useful scripts:
   Run `pipdate` to update the default Python3 installation.  
   Run `pipdate /path/to/python` to update a specific python installation.  
   Available for windows as [pipdate.cmd](pipdate.cmd)
+* [fix-newline](fix-newline.sh)  
+  Remove \r from a file in-place
